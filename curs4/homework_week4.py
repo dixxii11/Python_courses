@@ -1,3 +1,6 @@
+print('homework4')
+
+
 class Fractie(object):
     def __init__(self, numarator, numitor):
         self.numarator = numarator
@@ -26,3 +29,5 @@ print(f1)
 print(f1.__add__(7,3))
 print(f1.__sub__(7,3))
 print(f1.__invert__())
+
+

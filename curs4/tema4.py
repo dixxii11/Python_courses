@@ -14,17 +14,17 @@ class Fractie(object):
     def __sub__(self, other_numarator, other_numitor):
         dif_numarator = (self.numarator * other_numitor) - (other_numarator * self.numitor)
         dif_numitor = self.numitor * other_numitor
-        return  f'Diferenta fractiilor {self.numarator} / {self.numitor} - {other_numarator} / {other_numitor} = {dif_numarator} / {dif_numitor}'
+        return f'Diferenta fractiilor {self.numarator} / {self.numitor} - {other_numarator} / {other_numitor} = {dif_numarator} / {dif_numitor}'
 
     def __invert__(self):
         return f'Inversa fractiei {self.numarator} / {self.numitor} este {self.numitor} / {self.numarator}'
 
 
-f1 = Fractie(5,2)
+f1 = Fractie(5, 2)
 
 print(f1)
-print(f1.__add__(7,3))
-print(f1.__sub__(7,3))
+print(f1.__add__(7, 2))
+print(f1.__sub__(7, 3))
 print(f1.__invert__())
 
 
